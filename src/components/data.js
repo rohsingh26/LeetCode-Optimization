@@ -21,7 +21,7 @@ export const tagDict = {
     "Suffix Array": 63, "Bucket Sort": 64, "Line Sweep": 65,
     "Minimum Spanning Tree": 66, "Shell": 67, "Reservoir Sampling": 68,
     "Strongly Connected Component": 69, "Eulerian Circuit": 70,
-    "Radix Sort": 71, "Rejection Sampling": 72, "Biconnected Component": 73
+    "Radix Sort": 71, "Rejection Sampling": 72, "Biconnected Component": 73,
   };
 
 export const questionList = [
@@ -3364,4 +3364,7 @@ export const questionList = [
 {'name': 'Total Characters in String After Transformations II', 'tags': [2, 5, 7, 4]} ,
 {'name': 'Second Highest Salary II', 'tags': [1, 12]} ,
 {'name': 'Find the Number of K-Even Arrays', 'tags': [1, 6]} ,
+{'name': 'Check Balanced String', 'tags': [0, 4] },
+{ "name": "Find Minimum Time to Reach Last Room I", "tags": [1, 3, 23, 19, 13, 48] },
+{ "name": "Find Minimum Time to Reach Last Room II", "tags": [1, 3, 23, 19, 13, 48] },
 ];
