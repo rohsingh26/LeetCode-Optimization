@@ -130,11 +130,9 @@ removeTag(tagValue) {
     selectOnlyThisDifficulty(value) {
   const difficultyValues = Object.values(this.difficultyTags);
 
-  // If the value is already selected, unselect all difficulties
   if (this.selectedTags.includes(value)) {
     this.selectedTags = this.selectedTags.filter(tag => !difficultyValues.includes(tag));
   } else {
-    // Else, remove all difficulties and add the selected one
     this.selectedTags = this.selectedTags.filter(tag => !difficultyValues.includes(tag));
     this.selectedTags.push(value);
   }
