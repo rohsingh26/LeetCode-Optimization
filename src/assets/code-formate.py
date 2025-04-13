@@ -1,3 +1,5 @@
+import ast
+
 tagDict= {
     "Easy": 0, "Medium": 1, "Hard": 2, "Array": 3, "String": 4,
     "Hash Table": 5, "Dynamic Programming": 6, "Math": 7, "Sorting": 8,
@@ -28,14 +30,17 @@ question=[]
 for i in range(586):
     a=input()
     question.append(a[1:])
+
 print("+++")
-import ast
+
 datatype=[]
 for i in range(586):
     a=input()
     b=ast.literal_eval(a)
     datatype.append(b)
+
 print("++++")
+
 level=[]
 for i in range(586):
     a=input()
