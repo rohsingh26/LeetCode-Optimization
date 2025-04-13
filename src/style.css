@@ -92,7 +92,6 @@ body {
     list-style: none;
   }
   
-  /* Scrollable tags customization */
   .scrollable-tags {
     max-height: 260px;
     overflow-y: auto;
@@ -130,8 +129,9 @@ body {
   }
   
   .question-number {
-    width: 6ch; /* Ensures all numbers take same space */
+    width: 6ch;
     display: inline-block;
+    margin-left: -18px;
   }
   
   .questions {
